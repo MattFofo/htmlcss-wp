@@ -140,7 +140,18 @@ a{
 footer:last-child{
     height: 40px;
     /* width: 1200px; */
-    background-color: purple;
+    /* background-color: purple; */
     margin-top: 0.5rem;
 
+}
+
+div::after{
+    content: "\2764";
+    color: red;
+    text-align: center;
+    margin: 0.3em;
+}
+
+.footer-sign{
+    text-align: center;
 }
