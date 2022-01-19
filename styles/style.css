@@ -46,6 +46,7 @@ a{
     height: 500px;
     object-fit: cover;
     position: relative;
+    filter: brightness(75%);
     
 
 }
@@ -101,6 +102,8 @@ a{
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    /* filter: drop-shadow(10px 10px 20px black); */
+    filter: brightness(75%);
 }
 
 
@@ -145,7 +148,7 @@ footer:last-child{
 
 }
 
-div::after{
+.footer-sign::after{
     content: "\2764";
     color: red;
     text-align: center;
