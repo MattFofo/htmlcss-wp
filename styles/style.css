@@ -51,44 +51,26 @@ a{
     position: relative;
     filter: brightness(75%);
     
-
 }
 
+section img:hover, a:hover{
+    filter: drop-shadow(10px 10px 20px grey);
+    
+}
 
 .container-banner-text{
     display: inline-block;
     position: relative;
-    bottom: 6em;
-    left: 4em;
+    bottom: 6rem;
+    left: 4rem;
     width: 50%;
     margin-top: -100px;
     color: white;
     
-
 }
-
-/* .img-banner-title{
-    display: inline-block;
-    position: relative;
-    bottom: 10em;
-    left: 2em;
-    width: 50%;
-}
-
-.text-banner{
-    display: inline-block;
-    position: relative;
-    bottom: 10em;
-    left: 2em;
-    width: 50%;
-
-} */
 
 
 .container-articles{
-    /* max-width: 1200px; */
-    /* height: 600px; */
-    /* background-color: blue; */
     padding-bottom: 1.5rem;
     margin-bottom: 0;
 
@@ -116,24 +98,12 @@ a{
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    /* filter: drop-shadow(10px 10px 20px black); */
     filter: brightness(75%);
 }
 
 
-
-
-.section-header{
-    height: 15%;
-    /* background-color: lightblue; */
-}
-
-
-
 .column{
-    height: calc(85% - 1.5rem);
     width: 20%;
-    /* background-color: lightblue; */
     margin: 1.5rem;
     margin-left: 0;
     
@@ -158,10 +128,8 @@ a{
 }
 
 footer:last-child{
-    height: 40px;
-    /* width: 1200px; */
-    /* background-color: purple; */
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 
 }
 
