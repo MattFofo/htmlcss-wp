@@ -4,17 +4,21 @@
     box-sizing: border-box;
 }
 
-*+*{
-    margin: 1.5rem auto;
-}
+
 
 body > *{
     width: 1200px;
+    margin: 0 auto;
 }
 
-header.pink{
+.img-logo{
+    height: 5rem;
+    border-right: 2px solid gray;
+    padding-right: 2rem;
+}
+
+header.top-page{
     /* max-width: 1200px; */
-    height: 80px;
     margin: 1.5rem auto;
     background-color: #e579e6;
 }
