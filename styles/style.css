@@ -13,15 +13,31 @@ body > *{
 
 .img-logo{
     height: 5rem;
-    border-right: 2px solid gray;
+    border-right: 1px solid lightgrey;
     padding-right: 2rem;
 }
 
-header.top-page{
-    /* max-width: 1200px; */
-    margin: 1.5rem auto;
-    background-color: #e579e6;
+ul{
+    list-style: none;
 }
+
+li + li{
+    padding-left: 1em;
+}
+
+li{
+    display: inline-block;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
 
 
 .container-gold{
