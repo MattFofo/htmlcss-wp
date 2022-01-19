@@ -47,17 +47,18 @@ a{
     object-fit: cover;
     position: relative;
     
-    
 
 }
 
 
-.container-text-banner{
+.container-banner-text{
     display: inline-block;
     position: relative;
-    bottom: 12em;
+    bottom: 6em;
     left: 4em;
     width: 50%;
+    margin-top: -100px;
+    
 
 }
 
