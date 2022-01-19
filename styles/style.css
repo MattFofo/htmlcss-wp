@@ -24,7 +24,7 @@ ul{
     list-style: none;
 }
 
-li + li{
+.menu li + li{
     padding-left: 1em;
 }
 
